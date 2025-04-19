@@ -10,9 +10,8 @@ body {
     font-family: 'Outfit', sans-serif;
     min-width: 375px;
     background-color: hsl(212, 45%, 89%);
-    width: 100%;
-    height: fit-content;
- 
+    overflow-x: hidden;
+    display: flex;
 }
 
 .main-container {
@@ -69,6 +68,7 @@ body {
 }
 .att-div {
     display: flex;
+    align-items: center;
 }
 
 .attribution a {
